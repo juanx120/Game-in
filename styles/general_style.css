@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: verdana;
     font-family: 'Electrolize';
     background-color: #0D0C29;
 }
 
+body {
+    margin: auto;
+}
+
 h1,h2,h3,span,button,i{
     color: #F2F2F2;
+}
+
+.titulo{
+    color: #FFB800;
+    font-size: 38px;
+    text-align: center;
 }
