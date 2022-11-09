@@ -1,10 +1,57 @@
-header{
-    font-family: 'Electrolize';
-    font-size: 20px;
-    
-    
-}
-#menu-principal{
+*{
     color: aliceblue;
+}
+
+header{
+    font-size: 20px;
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+#banner{
+    height: 300px;
+    overflow: hidden;
+}
+
+#banner img{
+    object-fit: cover;
+    object-position: center;
+}
+
+#menu-principal{
+    margin-top: 25px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-principal ul li {
+    width: 150px;
+    height: 45px;
+    padding-top: 1%;
+    list-style: none;
+    float: left;
+}
+
+#menu-principal ul li a{
+    font-family: 'Open Sans';
     text-decoration: none;
+}
+
+#selection{
+    border-style: solid;
+    border-color: #D705F2;
+    background-color: #d605f221;
+}
+
+#colorT{
+    color: #D705F2;
+    background-color: transparent;
+}
+
+.lineP{
+    border-right: #D705F2;
+    border-right-style: solid;
+
 }
