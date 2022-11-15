@@ -10,9 +10,21 @@ header{
 }
 
 #banner{
+    background-image: url(https://a-static.besthdwallpaper.com/asus-rog-republic-of-gamers-ciudad-de-pixeles-de-8-bits-papel-pintado-3840x1280-63784_105.jpg);
+    background-size: 1080px;
+    background-position: 0%;
     height: 250px;
-    width: 1000px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Nombre_de_la_pagina
+{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 40px;
 }
 
 #banner img{
