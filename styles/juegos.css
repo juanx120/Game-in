@@ -1,0 +1,34 @@
+#titulo {
+    color: #FFB800;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+h4 {
+    margin: 20px 100px;
+}
+
+.carousel {
+    min-width: 200px;
+    min-height: 407px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: false;
+    width: 200px;
+    height: 407px;
+}
+
+.carousel .carousel-item img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    /* position: absolute;
+    top: -10;
+    left: 0; */
+}
