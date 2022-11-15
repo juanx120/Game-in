@@ -3,7 +3,7 @@
 }
 
 header{
-    font-size: 18px;
+    font-size: 25px;
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
@@ -28,19 +28,19 @@ header{
 }
 
 #menu-principal{
-    padding-top: 11px;
-    height: 56px;
+    height: 70px;
     width: 100%;
+    margin: auto;
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
     background-color: #17284A;
 }
 
 .hijo-menu {
     width: 150px;
     height: 35px;
-    padding-top: 5px;
     background-color: transparent;
 }
 
@@ -52,8 +52,7 @@ header{
 
 #selection{
     width: 150px;
-    height: 35px;
-    padding-top: 2px;
+    height: 40px;
     border-style: solid;
     border-color: #D705F2;
     background-color: #d605f221;
