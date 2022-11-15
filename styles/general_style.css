@@ -19,3 +19,8 @@ h1,h2,h3,span,button,i{
     font-size: 38px;
     text-align: center;
 }
+
+.subtitulo{
+    color: #FFB800;
+    font-size: 35px;
+}
