@@ -1,15 +1,20 @@
-*{
+* {
     color: aliceblue;
+    line-height: normal;
 }
 
-header{
+header {
     font-size: 25px;
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
 }
 
-#banner{
+a {
+    color: aliceblue;
+}
+
+#banner {
     background-image: url(/img/BannerSuperiorV2.jpg);
     background-size: 1080px;
     background-position: 0%;
@@ -19,15 +24,14 @@ header{
     align-items: center;
 }
 
-#Nombre_de_la_pagina
-{
+#Nombre_de_la_pagina {
     color: aliceblue;
     text-decoration: none;
     background-color: transparent;
     font-size: 40px;
 }
 
-#menu-principal{
+#menu-principal {
     height: 70px;
     width: 100%;
     margin: auto;
@@ -44,13 +48,13 @@ header{
     background-color: transparent;
 }
 
-.hijo-menu a{
+.hijo-menu a {
     font-family: 'Open Sans';
     background-color: transparent;
     text-decoration: none;
 }
 
-#selection{
+#selection {
     width: 150px;
     height: 40px;
     border-style: solid;
@@ -58,15 +62,15 @@ header{
     background-color: #d605f221;
 }
 
-#selection a{
+#selection a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #D705F2;
     background-color: transparent;
 }
 
-#lineP{
+#lineP {
     border-right: #D705F2;
     border-right-style: solid;
-
+    color: white;
 }
