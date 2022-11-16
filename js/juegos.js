@@ -19,4 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
         // indicators: true,
         noWrap: false
     });
+
+    M.Carousel.init(elementosCarousel[2], {
+        duration: 150,
+        dist: -50,
+        shift: 5,
+        padding: 40,
+        numVisible: 5,
+        // indicators: true,
+        noWrap: false
+    });
 });
