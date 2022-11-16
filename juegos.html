@@ -1,82 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/Header.css" />
-    <link rel="stylesheet" href="styles/general_style.css"/>
-    <script src="https://kit.fontawesome.com/223f5f0417.js" crossorigin="anonymous"></script>
-    <title>Juegos | Game-in</title>
-  </head>
 
-  <body>
-    <header>
-      <section id="banner">
-          <a href="index.html" id="Nombre_de_la_pagina">Game-in</a>
-      </section>
-      <nav id="menu-principal">
-          <div class="hijo-menu" >
-              <a href="index.html"> Inicio</a>
-          </div>
-          <div class="hijo-menu" id="selection">
-              <a href="juegos.html" >Juegos</a>
-          </div>
-          <div class="hijo-menu" id="lineP">
-              <a href="eSports.html">eSports</a>
-          </div>
-          <div class="hijo-menu">
-              <a href="" >Perfil</a>
-          </div>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="styles/Header.css" />
+  <link rel="stylesheet" href="styles/general_style.css" />
+  <link rel="stylesheet" href="styles/juegos.css">
+  <title>Juegos | Game-in</title>
+</head>
+
+<body>
+  <header>
+    <section id="banner">
+      <a href="index.html" id="Nombre_de_la_pagina">Game-in</a>
+    </section>
+    <div id="menu-principal">
+      <div class="hijo-menu">
+        <a href="index.html"> Inicio</a>
+      </div>
+      <div class="hijo-menu" id="selection">
+        <a href="juegos.html">Juegos</a>
+      </div>
+      <div class="hijo-menu" id="lineP">
+        <a href="eSports.html">eSports</a>
+      </div>
+      <div class="hijo-menu">
+        <a href="">Perfil</a>
+      </div>
+    </div>
   </header>
-    <div id="bd-juegos">
 
-      <h1>NOVEDADES</h1>
-      <div id="main-carrousel">
-        <i class="fa-solid fa-chevron-left"></i>
-        <img src="https://imgur.com/AfJZWJB.jpg" alt="" />
-        <i class="fa-solid fa-chevron-right"></i>
-      </div>
 
-      <h1>Mejores Ofertas</h1>
-      <div id="ofertas-carrousel">
-        <img src="https://imgur.com/t8fhdjk.jpg" alt="" />
-        <img src="https://imgur.com/t8fhdjk.jpg" alt="" />
-        <img src="https://imgur.com/t8fhdjk.jpg" alt="" />
-        <img src="https://imgur.com/t8fhdjk.jpg" alt="" />
-      </div>
+  <div id="bd-juegos">
 
-      <div id="banner-juegos">
-        <img src="https://imgur.com/AfJZWJB.jpg" alt="" />
-        <h2>¡Encuentra tus juegos al <span>mejor precio</span>!</h2>
-        <button>Encuentralos</button>
-      </div>
+    <h3 class="center-align" id="titulo">JUEGOS</h3>
 
-      <div id="banner-espots">
-        <h1>NO TE PIERDAS DE NADA</h1>
-        <h3>LIVE</h3>
-        <i class="fa-solid fa-signal-stream"></i>
-           <div id="box1">
-          <h3>Sigue tus torneos favoritos y no te pierdas ni un solo partido</h3>
-          <button>Siguelos</button>
+
+    <h4>Ofertas</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel center-align c1">
+
+            <div class="carousel-item c1">
+              <img src="img/banner-acv.png" alt="">
+            </div>
+
+            <div class="carousel-item c1">
+              <img src="img/banner-alice.png" alt="">
+            </div>
+
+            <div class="carousel-item c1">
+              <img src="img/banner-forza.png" alt="">
+            </div>
+
+            <div class="carousel-item c1">
+              <img src="img/banner-gta.png" alt="">
+            </div>
+
+            <div class="carousel-item c1">
+              <img src="img/banner-rdr.png" alt="">
+            </div>
+
+          </div>
         </div>
-        <div id="box2">
-          <br>
-          <i class="fa-solid fa-people-group">vs</i>
-          <i class="fa-solid fa-people-group"></i>
-          <br>
-          <i class="fa-solid fa-people-group">vs</i>
-          <i class="fa-solid fa-people-group"></i>
-          <br>
-          <i class="fa-solid fa-people-group">vs</i>
-          <i class="fa-solid fa-people-group"></i>
+      </div>
+    </div>
 
-        </div>
-      </di>
+
+    <br>
+    <br>
+
+
+    <div id="banner-juegos">
+      <div>
+        <h3 class="center-align ban-juegos">Elegido por la comunidad</h3>
+      </div>
+      <p class="ban-juegos">Este mes <span class="hgl">The Last Of Us </span> ha sido elegido como el mejor
+        juego. </p>
+
+      <p class="ban-juegos"> Aquí te compartimos el trailer para que te animes a conseguirlo. </p>
+      <img class="ban-juegos" src="img/last-of-us.png" alt="">
+    </div>
+
+
+
+
+    <div>
+      <h1 class="center-align" id="titulo">TOP 10</h1>
+
 
     </div>
-  </body>
+    <div class="container banner-tops">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel center-align c2">
+
+            <div class="carousel-item c2">
+              <img src="img/1b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/2b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/3b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/4b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/5b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/6b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/7b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/8b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/9b.png" alt="">
+            </div>
+
+            <div class="carousel-item c2">
+              <img src="img/10b.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div>
+      <h1 class="center-align" id="titulo">Tiendas</h1>
+
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://kit.fontawesome.com/223f5f0417.js" crossorigin="anonymous"></script>
+  <script src="js/juegos.js"></script>
+</body>
+
 </html>
