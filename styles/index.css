@@ -30,10 +30,7 @@
     
 }
 .slider_btn{
-    display: flex;
     position: absolute;
-    height: 70px;
-    width: 70px;
     border-radius: 50%;
     background-color: transparent;
     font-size: 80px;
@@ -43,11 +40,10 @@
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
+    opacity: 0.5;
 }
 .slider_btn:hover{
-    background-color:rgba(102, 2, 115, 1) ;
+    opacity: 1;
 }
 .slider_btn_left{
     top: 650px;
@@ -57,7 +53,34 @@
     top: 650px;
     right: 15%;
 }
-
+.Mofertas{
+    margin-top: 100px;
+}
+#Mejores_O{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#ofertas{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CaOfertas{
+    width: 245px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.Img_ofert{
+    width: 245px;
+    height: 350px;
+    border-radius: 10px;
+}
 
 #Caja_degradada{
     width: 100%;
