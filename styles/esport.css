@@ -130,4 +130,22 @@
     max-width: 90px;
     padding: 0;
     margin: 15px auto 0 auto;
-  }
+}
+
+#info-t{
+    display: flex;
+    position: center;
+    margin: auto;
+    width: 1040px;
+    margin-bottom: 30px;
+}
+
+#info-t p{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#info-t img{
+    width: 90%;
+}
