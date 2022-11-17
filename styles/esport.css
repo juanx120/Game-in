@@ -91,12 +91,6 @@
     background: linear-gradient(90deg, rgba(102, 2, 115, 0)15%,rgba(51, 36, 101, 1), rgba(102, 2, 115, 0)85%);
 }
 
-
-.img-circular{
-    border-radius: 50%;
-    height: 180px;
-}
-
 .info-torneo{
     width: 37%;
     display: flex;
@@ -154,8 +148,6 @@
 }
 
 #logo img{
-   
-    
     align-items: center;
     width: 60%;
 }
