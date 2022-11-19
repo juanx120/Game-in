@@ -4,6 +4,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from
 const auth = getAuth(app);
 const btnAbrirmodal = document.querySelector("#abrir-modal");
 const btnCerrarmodal = document.querySelector("#btn-cerrar-modal");
+const SesionC = document.querySelector(".Cerrar-se")
 const btnCerrarSesion = document.querySelector("#Cerrar-se")
 const modal = document.querySelector("#modal");
 
@@ -22,14 +23,14 @@ onAuthStateChanged(auth, (user) => {
       // User is signed in, see docs for a list of available properties
       // https://firebase.google.com/docs/reference/js/firebase.User
       const uid = user.uid;
-      btnCerrarSesion.style.display = 'inline';
+      SesionC.style.display = 'flex';
       btnAbrirmodal.style.display = 'none';
       console.log(uid)
       // ...
     } else {
       // User is signed out
       // ...
-      btnCerrarSesion.style.display = 'none';
+      SesionC.style.display = 'none';
       btnAbrirmodal.style.display = 'inline';
     }
   });
@@ -51,6 +52,10 @@ signinForm.addEventListener("submit", (e) => {
             // Signed in
             const user = userCredential.user;
             console.log("logeado");
+            //limpiar formulario
+            signinForm.reset();
+            //cerrar modal
+            modal.close();
             // ...
         })
         .catch((error) => {

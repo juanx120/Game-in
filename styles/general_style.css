@@ -114,6 +114,18 @@ h1,h2,h3,span,button,i{
 
 .Cerrar-se {
     position: absolute;
-    top: 0;
-    width: 190px;
+    background-color: transparent;
+    top:0;
+    display: flex;
+}
+.logout{
+    display:flex;
+    align-items: center;
+    width: 150px;
+}
+.logoo{
+    background-color: transparent;
+    font-size: 30px;
+    color: #D705F2;
+    cursor: pointer;
 }
