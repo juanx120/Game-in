@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,48 +9,52 @@
 body {
     margin: auto;
 }
+
 /* 
 h1,h2,h3,span,button,i{
     color: #F2F2F2;
 } */
 
-.titulo{
+.titulo {
     color: #FFB800;
     font-size: 38px;
     text-align: center;
 }
 
-.subtitulo{
+.subtitulo {
     color: #FFB800;
     font-size: 35px;
     margin: auto;
     width: 75%;
 }
 
-.img-circular{
+.img-circular {
     border-radius: 50%;
     height: 180px;
 }
 
-.textY{
+.textY {
     color: #FFB800;
 }
 
 /* Modal */
-#abrir-modal{
+#abrir-modal {
     cursor: pointer;
 }
-#modal{
+
+#modal {
     margin-left: 35%;
     margin-top: 20%;
     width: 550px;
     height: 250px;
     border-radius: 26px;
 }
-#modal::backdrop{
+
+#modal::backdrop {
     background-color: rgba(0, 0, 0, .70);
 }
-.T-Modal{
+
+.T-Modal {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,17 +62,20 @@ h1,h2,h3,span,button,i{
     margin-right: 4.5%;
     margin-top: 20px;
 }
-.btn-cerrar{
+
+.btn-cerrar {
     color: #FFB800;
     font-size: 26px;
     justify-content: flex-end;
     cursor: pointer;
 }
-.form-group{
+
+.form-group {
     margin-top: 25px;
     margin-left: 5%;
 }
-.form-iniciar-s{
+
+.form-iniciar-s {
     border-style: solid;
     border-width: 2px;
     border-color: aliceblue;
@@ -78,7 +85,8 @@ h1,h2,h3,span,button,i{
     padding: 10px;
     font-size: 20px;
 }
-.btn-ini{
+
+.btn-ini {
     background-color: #FFB800;
     margin-top: 27px;
     margin-left: 70%;
@@ -92,6 +100,20 @@ h1,h2,h3,span,button,i{
     border-radius: 15px;
     cursor: pointer;
 }
-.btn-ini:hover{
-    color:rgb(207, 207, 207);
+
+.btn-ini:hover {
+    color: rgb(207, 207, 207);
+}
+
+.Op-ini {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.Cerrar-se {
+    position: absolute;
+    top: 0;
+    width: 190px;
 }
