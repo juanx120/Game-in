@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: aliceblue;
-    
+    color: aliceblue; 
 }
 
 #seccion{
@@ -92,12 +91,6 @@
     background: linear-gradient(90deg, rgba(102, 2, 115, 0)15%,rgba(51, 36, 101, 1), rgba(102, 2, 115, 0)85%);
 }
 
-
-.img-circular{
-    border-radius: 50%;
-    height: 180px;
-}
-
 .info-torneo{
     width: 37%;
     display: flex;
@@ -130,4 +123,31 @@
     max-width: 90px;
     padding: 0;
     margin: 15px auto 0 auto;
-  }
+}
+
+#info-t{
+    display: flex;
+    position: center;
+    margin: auto;
+    width: 1440px;
+    margin-bottom: 30px;
+}
+
+.texto{
+    width: 55%;
+}
+
+.texto p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo img{
+    align-items: center;
+    width: 60%;
+}

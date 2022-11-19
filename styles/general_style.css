@@ -23,4 +23,15 @@ h1,h2,h3,span,button,i{
 .subtitulo{
     color: #FFB800;
     font-size: 35px;
+    margin: auto;
+    width: 75%;
+}
+
+.img-circular{
+    border-radius: 50%;
+    height: 180px;
+}
+
+.textY{
+    color: #FFB800;
 }
