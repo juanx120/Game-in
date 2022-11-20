@@ -73,6 +73,7 @@ btnCerrarSesion.addEventListener("click",(e)=>{
     signOut(auth).then(() => {
         // Sign-out successful.
         console.log("Salio con exito")
+        window.location.href = "index.html"
       }).catch((error) => {
         // An error happened.
         console.log("Error al salir")
