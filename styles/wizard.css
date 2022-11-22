@@ -1,0 +1,60 @@
+.fondo-wizard{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 322%;
+    background-color: rgba(0, 0, 0, .70);
+    z-index: 0;
+}
+.wizards{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+}
+.wizards::after {
+    border: 25px solid aliceblue;
+    content: '';
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 25px)
+}
+#Wizard1{
+    top: 350px;
+    left: 34%;
+}
+#Wizard2{
+    top: 350px;
+    left: 45%;
+}
+.Textwiz{
+    text-align: center;
+    margin: 5px;
+}
+.opcionesW{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-wizard{
+    background-color: #FFB800;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+}
+.Cantidad-wiz{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: lighter;
+}

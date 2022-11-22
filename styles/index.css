@@ -36,11 +36,9 @@
 }
 .slider_btn{
     position: absolute;
-    border-radius: 50%;
     background-color: transparent;
     font-size: 80px;
     color: #FFB800;
-    top: 50%;
     transform: translateY(-50%);
     font-weight: bold;
     text-align: center;
@@ -216,4 +214,22 @@
     margin-left: 50px;
     margin-right: 50px;
     color: #FFB800;
+}
+#Help-button{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 35px;
+    color: aliceblue;
+}
+#Help-button:hover{
+    color: black;
+    background-color: #FFB800;
 }
