@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         shift: 5,
         padding: 40,
         numVisible: 5,
-        // indicators: true,
+        indicators: true,
         noWrap: false
     });
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         shift: 5,
         padding: 40,
         numVisible: 9,
-        // indicators: true,
+        indicators: true,
         noWrap: false
     });
 
