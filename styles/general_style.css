@@ -24,7 +24,18 @@ h1,h2,h3,span,button,i{
     color: #FFB800;
     font-size: 35px;
     margin: auto;
-    width: 75%;
+    width: 1440px;
+}
+
+.subtituloblco{
+    font-size: 35px;
+    margin: auto;
+    width: 1440px;
+}
+
+.img-circularGrande{
+    border-radius: 50%;
+    height: 210px;
 }
 
 .img-circular{
