@@ -169,3 +169,21 @@ h1,h2,h3,span,button,i{
     color: #D705F2;
     cursor: pointer;
 }
+#Help-button{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 35px;
+    color: aliceblue;
+}
+#Help-button:hover{
+    color: black;
+    background-color: #FFB800;
+}

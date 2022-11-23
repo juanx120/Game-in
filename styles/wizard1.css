@@ -1,0 +1,88 @@
+.fondo-wizard{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, .70);
+    z-index: 0;
+}
+.wizards, .wizards1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #00A6DF;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+}
+.wizards::after, .wizards1::after {
+    border: 25px solid #00A6DF;
+    content: '';
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    left: calc(50% - 25px)
+}
+.wizards::after{
+    border-top-color: transparent;
+    top: -50px;
+}
+.wizards1::after{
+    border-bottom-color: transparent;
+    bottom: -50px;
+}
+#Wizard1{
+    top: 350px;
+    left: 34%;
+}
+#Wizard2{
+    top: 350px;
+    left: 45%;
+}
+#Wizard3{
+    top: 350px;
+    left: 55%;
+}
+#Wizard4{
+    top: 170px;
+    left: 40%;
+}
+#Wizard5{
+    top: 825px;
+    left: 40%;
+}
+.Textwiz{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+.opcionesW{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-wizard{
+    background-color: transparent;
+    color: aliceblue;
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+}
+.btn-wizard:hover{
+    background-color: #00A6DF;
+    border: none;
+    color: black;
+}
+.Cantidad-wiz{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: lighter;
+}
