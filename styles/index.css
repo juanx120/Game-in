@@ -89,6 +89,7 @@
     width: 210px;
     height: 420px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .Img_ofert:hover{
     width: 220px;

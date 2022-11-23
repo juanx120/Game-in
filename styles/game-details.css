@@ -20,6 +20,34 @@
     background: url(/img/Star10.png);
 }
 
+h2 {
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 0px;
+    margin: 0px;
+}
+
+input {
+    outline: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-box-sizing: 0 !important;
+    box-sizing: 0 !important;
+    -webkit-transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: aliceblue !important;
+    border-radius: 10px !important;
+    height: 35px !important;
+    width: 450px !important;
+    font-size: 20px !important;
+}
 
 .p-opinion {
     margin-top: 10px;
