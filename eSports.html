@@ -52,44 +52,42 @@
 
   <h1 class="titulo">eSports</h1>
 
-  <h2>Torneos</h2>
+  <h2 class="subtituloblco">Torneos</h2>
 
-  <div class="container banner-tops">
-    <div class="row">
-      <div class="col s12">
-        <div class="carousel center-align c2">
-
-          <div class="carousel-item c2">
-            <img class="img-circular" src="img/torneo/trn_esl.png" alt="Tranding">
-          </div>
-
-          <div class="carousel-item c2">
-            <img class="img-circular" src="img/torneo/trn_fifa.jpg" alt="Tranding">
-          </div>
-
-          <div class="carousel-item c2">
-            <img class="img-circular" src="img/torneo/trn_gamergy.jpg" alt="Tranding">
-          </div>
-
-          <div class="carousel-item c2">
-            <a href="torneo.html">
-              <img class="img-circular" src="img/torneo/trn_halo.jpg" alt="Tranding">
-            </a>
-          </div>
-
-          <div class="carousel-item c2">
-            <img class="img-circular" src="img/torneo/trn_iberian.jpg" alt="Tranding">
-          </div>
-
-          <div class="carousel-item c2">
-            <img class="img-circular" src="img/torneo/trn_levante.jpg" alt="Tranding">
-          </div>
+  <div class="carousel-inner">
+    <div class="container_slider">
+      <div class="slider" id="slider">
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_esl.png" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_fifa.jpg" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_iberian.jpg" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <a href="torneo.html">
+            <img class="img-circularGrande" src="img/torneo/trn_halo.jpg" alt="Tranding">
+          </a>
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_levante.jpg" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_dgf.jpg" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_fornite.jpg" alt="Tranding">
+        </div>
+        <div class="slider_section">
+          <img class="img-circularGrande" src="img/torneo/trn_overwatch.png" alt="Tranding">
         </div>
       </div>
     </div>
+    <div class="slider_btn slider_btn_right material-symbols-outlined" id="btnslide_right">arrow_forward_ios</div>
+    <div class="slider_btn slider_btn_left material-symbols-outlined" id="btnslide_left">arrow_back_ios</div>
   </div>
-
-
 
   <div id="seccion">
     <h2>LIVE</h2>
@@ -164,60 +162,9 @@
     <img class="img-circular" src="img/eqp_flash.jpg" alt="">
   </div>
 
-  <!-- Modal -->
-  <dialog id="modal">
-    <div class="T-Modal">
-      <h2>INICIAR SESION</h2>
-      <span id="btn-cerrar-modal" class="material-symbols-outlined btn-cerrar">cancel</span>
-    </div>
-    <form id="login-form">
-      <div class="form-group">
-        <input type="email" id="loginemail" class="form-iniciar-s" placeholder="Email" required>
-      </div>
-      <div class="form-group">
-        <input type="password" id="loginpassword" class="form-iniciar-s" placeholder="Contraseña" required>
-      </div>
-      <div class="opciones">
-        <a id="btn-registro">Regristrate</a>
-        <button type="submit" class="btn-ini">Iniciar sesion</button>
-      </div>
-    </form>
-  </dialog>
 
-  <!--Modal registro-->
-  <dialog id="modalr">
-    <div class="T-Modal">
-      <h2>Registro</h2>
-      <span id="btn-cerrar-modalR" class="material-symbols-outlined btn-cerrar">cancel</span>
-    </div>
-    <form id="register-form">
-      <div class="form-group">
-        <input type="email" id="registeremail" class="form-iniciar-s" placeholder="Email" required>
-      </div>
-      <div class="form-group">
-        <input type="password" id="registerpassword" class="form-iniciar-s" placeholder="Contraseña" required>
-      </div>
-      <div class="form-group">
-        <input type="text" id="namer" class="form-iniciar-s" placeholder="Nombre" required>
-      </div>
-      <div class="form-group">
-        <input type="text" id="nicknamer" class="form-iniciar-s" placeholder="Nickname" required>
-      </div>
-      <div class="form-group">
-        <p id="FN">Fecha de nacimiento</p>
-        <input type="date" id="Fnacir" class="form-iniciar-s" placeholder="Fecha de Nacimiento" required>
-      </div>
-      <div class="opciones">
-        <button type="submit" class="btn-ini">Registrarse</button>
-      </div>
-    </form>
-  </dialog>
+  <script src="js/carrusel.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="https://kit.fontawesome.com/223f5f0417.js" crossorigin="anonymous"></script>
-  <!--<script src="js/esport.js"></script>-->
-  <script type="module" src="js/Firebase.js"></script>
-  <script type="module" src="js/sesion.js"></script>
 </body>
 
 </html>
