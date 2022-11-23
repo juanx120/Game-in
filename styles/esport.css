@@ -125,29 +125,57 @@
     margin: 15px auto 0 auto;
 }
 
+/*CSS Información toreno*/
+
+h1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 #info-t{
     display: flex;
     position: center;
     margin: auto;
-    width: 1440px;
+    justify-content: center;
+    width: 80%;
     margin-bottom: 30px;
 }
 
 .texto{
-    width: 55%;
+    width: 100%;
 }
 
 .texto p{
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
+    margin-right: 10%;
 }
 
 #logo{
     display: flex;
+    width: 420px;
+    height: auto;
     justify-content: flex-end;
 }
 
 #logo img{
     align-items: center;
-    width: 60%;
+    width: 100%;
 }
+
+.contenedor{
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contenedor a{
+    color: #de81ea;
+}
+
+.contenedor a:hover{
+    color: #D705F2;
+}
+
