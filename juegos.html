@@ -9,10 +9,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="styles/Header.css" />
   <link rel="stylesheet" href="styles/general_style.css" />
   <link rel="stylesheet" href="styles/juegos.css">
+  <link rel="stylesheet" href="styles/wizard2.css">
   <title>Juegos | Game-in</title>
 </head>
 
@@ -170,7 +171,7 @@
 
 
     <div>
-      <h1 class="tiendas-tl">Tiendas</h1>
+      <h1 class="tiendas-tl" id="T1">Tiendas</h1>
     </div>
 
     <div class="container banner-tiendas">
@@ -310,9 +311,119 @@
     </form>
   </dialog>
 
+      <!-- Help button-->
+      <a class="material-symbols-outlined" id="Help-button">help</a>
+
+      <!-- Modal Wizard -->
+      <div hidden class="fondo-wizard" id="F-Wizard1">
+          <div class="wizards" id="Wizard1">
+              <div class="Textwiz">
+                  En esta seccion encontraras tus juegos a los mejores precios
+              </div>
+              <div class="opcionesW">
+                  <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                  <h5 class="Cantidad-wiz">1 de 8</h5>
+                  <button class="btn-wizard" id="Sigiente-wizard1">Siguiente</button>
+              </div>
+          </div>
+      </div>
+  
+      <div hidden class="fondo-wizard" id="F-Wizard2">
+          <div class="wizards" id="Wizard2">
+              <div class="Textwiz">
+                  En esta seccion podras ver los torneos que se estan llevando a cabo
+              </div>
+              <div class="opcionesW">
+                  <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                  <h5 class="Cantidad-wiz">2 de 8</h5>
+                  <button class="btn-wizard" id="Sigiente-wizard2">Siguiente</button>
+              </div>
+          </div>
+      </div>
+  
+      <div hidden class="fondo-wizard" id="F-Wizard3">
+          <div class="wizards" id="Wizard3">
+              <div class="Textwiz">
+                  Puedes registrarte o iniciar sesion para guardas tus juegos favoritos y hacer comentarios
+              </div>
+              <div class="opcionesW">
+                  <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                  <h5 class="Cantidad-wiz">3 de 8</h5>
+                  <button class="btn-wizard" id="Sigiente-wizard3">Siguiente</button>
+              </div>
+          </div>
+      </div>
+  
+      <div hidden class="fondo-wizard" id="F-Wizard4">
+          <div class="wizards1" id="Wizard4">
+              <div class="Textwiz">
+                  En esta seccion veras las ofertas destacadas de las diferentes tiendas
+              </div>
+              <div class="opcionesW">
+                  <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                  <h5 class="Cantidad-wiz">4 de 8</h5>
+                  <button class="btn-wizard" id="Sigiente-wizard4">Siguiente</button>
+              </div>
+          </div>
+      </div>
+  
+      <div hidden class="fondo-wizard" id="F-Wizard5">
+          <div class="wizards" id="Wizard5">
+              <div class="Textwiz">
+                  Aca encontraras encontraras el juego destacado por votacion de la comunidad
+              </div>
+              <div class="opcionesW">
+                  <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                  <h5 class="Cantidad-wiz">5 de 8</h5>
+                  <button class="btn-wizard" id="Sigiente-wizard5">Siguiente</button>
+              </div>
+          </div>
+      </div>
+  
+      <div hidden class="fondo-wizard" id="F-Wizard6">
+        <div class="wizards" id="Wizard6">
+            <div class="Textwiz">
+                Aca veras el top 10 de juegos mas vendidos
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">6 de 8</h5>
+                <button class="btn-wizard" id="Sigiente-wizard6">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard7">
+      <div class="wizards" id="Wizard7">
+          <div class="Textwiz">
+              Aca podras ver las diferentes tiendas de videojuegos y podras visitarlas
+          </div>
+          <div class="opcionesW">
+              <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+              <h5 class="Cantidad-wiz">7 de 8</h5>
+              <button class="btn-wizard" id="Sigiente-wizard7">Siguiente</button>
+          </div>
+      </div>
+  </div>
+
+  <div hidden class="fondo-wizard" id="F-Wizard8">
+    <div class="wizards1" id="Wizard8">
+        <div class="Textwiz">
+            En esta seccion encontraras los proximos estrenos de juegos y DLCs con su respectiva fecha de salida
+        </div>
+        <div class="opcionesW">
+            <h5 class="Cantidad-wiz">8 de 8</h5>
+            <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+        </div>
+    </div>
+</div>
+
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://kit.fontawesome.com/223f5f0417.js" crossorigin="anonymous"></script>
   <script src="js/juegos.js"></script>
+  <script src="js/Wizardj.js"></script>
   <script type="module" src="js/Firebase.js"></script>
   <script type="module" src="js/sesion.js"></script>
 </body>
