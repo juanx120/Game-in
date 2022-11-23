@@ -2,6 +2,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .container_slider {
@@ -13,14 +14,20 @@
 
 .slider {
     display: flex;
-    width: 250%;
-    margin-left: -5%;
+    width: 300%;
+    margin-left: -5.5%;
     height: 210px;
 }
 
 .slider_section {
-    width: 230px;
+    width: 5.32%;
     padding: auto;
+}
+
+.slider_background{
+    position: absolute;
+    background-color: #0D0C29;
+    width: 180px;
 }
 
 .slider_btn{
