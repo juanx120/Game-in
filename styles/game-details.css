@@ -1,0 +1,125 @@
+.game-details-bd {
+    padding: 100px;
+}
+
+#titulo {
+    color: #FFB800;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+.img1 {
+    /* padding: 50px; */
+    border-radius: 30px;
+}
+
+.fila2 {
+    margin-top: 50px;
+}
+
+.img3 {
+    /* padding: 50px; */
+    padding: 10px;
+}
+
+.p-opinion {
+    margin-top: 10px;
+}
+
+.fila3 {
+    margin-top: 60px;
+}
+
+.tag {
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 40px !important;
+    background-color: #660273;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+}
+
+.fila5 {
+    margin-top: 60px;
+}
+
+.torneo {
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, rgba(102, 2, 115, 0)15%, rgba(102, 2, 115, 1), rgba(102, 2, 115, 0)85%);
+}
+
+.t1 {
+    background: rgba(0, 0, 0, 0.0)
+}
+
+.t2 {
+    color: #FFB800;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.0)
+}
+
+.t3 {
+    text-decoration: line-through;
+    background: rgba(0, 0, 0, 0.0)
+}
+
+.img4 {
+    width: 120px !important;
+}
+
+.img5 {
+    width: 80% !important;
+    margin: 50px 0px;
+}
+
+.btn1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 10px !important;
+    background-color: #FFB800;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 0px !important;
+    background-color: #FFB800;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    border-radius: 50px;
+}
+
+.fila7 {
+    display: flex;
+    width: 80%;
+    padding: 10px 30px;
+    background-color: #660273;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img6 {
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.img7 {
+    width: 50px !important;
+    background: rgba(0, 0, 0, 0.0);
+}

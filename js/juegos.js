@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         shift: 5,
         padding: 40,
         numVisible: 5,
-        // indicators: true,
+        indicators: true,
         noWrap: false
     });
 
@@ -16,6 +16,26 @@ document.addEventListener("DOMContentLoaded", () => {
         shift: 5,
         padding: 40,
         numVisible: 9,
+        indicators: true,
+        noWrap: false
+    });
+
+    M.Carousel.init(elementosCarousel[2], {
+        duration: 150,
+        dist: 0,
+        shift: 5,
+        padding: 100,
+        numVisible: 5,
+        // indicators: true,
+        noWrap: false
+    });
+
+    M.Carousel.init(elementosCarousel[3], {
+        duration: 150,
+        dist: 0,
+        shift: 5,
+        padding: 100,
+        numVisible: 5,
         // indicators: true,
         noWrap: false
     });

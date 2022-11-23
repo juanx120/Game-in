@@ -4,17 +4,33 @@
     font-weight: bold;
     margin: 70px;
 }
+#titulo2 {
+    color: #FFB800;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 70px auto 0px auto;
+}
 
 h4 {
     margin: 20px 70px;
 }
 
-.carousel .c1{
+
+.banner-ofertas {
+    position: relative;
+    width: 90vw;
+}
+
+.carousel{
+    height: 600px;
+}
+
+.carousel .c1 {
     min-width: 200px;
     min-height: 407px;
 }
 
-.carousel .carousel-item .c1{
+.carousel .carousel-item .c1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +41,8 @@ h4 {
 }
 
 .carousel .carousel-item img {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     /* position: absolute;
     top: -10;
@@ -44,46 +60,47 @@ h4 {
     background: #660273;
 }
 
-h3.ban-juegos{
+h3.ban-juegos {
     padding: 50px;
     background-color: #D705F2;
     color: #1B2939;
 }
 
-p.ban-juegos{
-    width: 40%;
-    font-size:xx-large;
+p.ban-juegos {
+    width: 35%;
+    font-size: xx-large;
     margin: 100px 80px;
 }
 
-img.ban-juegos{
-    position:absolute;
+img.ban-juegos {
+    position: absolute;
     top: 27%;
     right: 5%;
-    height: 50%;
-    width: auto;
+    height: 500px; 
 
 }
 
 span.hgl {
     color: #FFB800;
     background: #660273;
-    
+
 }
 
 
-.banner-tops{
-    width: 100%;
-    margin: 100px auto;
-    background-color: white;
+.banner-tops {
+    position: relative;
+    max-width: 100vw;
+    width: 90vw;
+    margin: 50px auto;
+    margin-top: 0px;
 }
 
-.carousel .c2{
+.carousel .c2 {
     min-width: 245px;
     min-height: 450px;
 }
 
-.carousel .carousel-item .c2{
+.carousel .carousel-item .c2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,5 +117,89 @@ span.hgl {
     /* position: absolute;
     top: -10;
     left: 0; */
+}
+
+
+
+
+
+.tiendas-tl {
+    padding: 30px 200px;
+    margin: 0px;
+    font-size: xx-large;
+    background-color: #342363;
+}
+
+
+.banner-tiendas {
+    max-width: 100vw;
+    width: 98.7vw;
+    margin: 0px auto;
+    background-color: aliceblue;
+}
+
+.row .col.c3{
+    padding: 0px;
+}
+
+.carousel.c3 {
+    background-color: #342363;
+    min-width: 200px;
+    min-height: 137px;
+    height: 200px;
+}
+
+.carousel .carousel-item.c3 {
+    background-color: #342363;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: false;
+    width: 200px;
+    height: 137px;
+}
+
+.carousel .carousel-item img.c3 {
+    background-color: #342363;
+    /* position: absolute;
+    top: -10;
+    left: 0; */
+}
+
+
+
+
+.estrenos-tl {
+    padding: 30px 200px;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+.banner-estrenos {
+    max-width: 100vw;
+    width: 98.7vw;
+    margin: 0px auto;
+    background-color: aliceblue;
+}
+
+.row .col.c4{
+    padding: 0px;
+}
+
+.carousel.c4 {
+    min-width: 200px;
+    min-height: 407px;
+    height: 200px;
+}
+
+.carousel .carousel-item.c4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: false;
+    width: 200px;
+    height: 407px;
 }
 
