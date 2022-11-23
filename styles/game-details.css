@@ -1,14 +1,7 @@
 .game-details-bd {
-    padding: 100px;
+    margin: auto;
+    width: 76%;
 }
-
-#titulo {
-    color: #FFB800;
-    font-size: 38px;
-    font-weight: bold;
-    margin: 0px;
-}
-
 
 .img1 {
     /* padding: 50px; */
@@ -122,4 +115,8 @@
 .img7 {
     width: 50px !important;
     background: rgba(0, 0, 0, 0.0);
+}
+
+#doble{
+    width: 200px;
 }
