@@ -2,19 +2,19 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="styles/Header.css" />
-    <link rel="stylesheet" href="styles/general_style.css" />
-    <link rel="stylesheet" href="styles/esport.css" />
-    <link rel="stylesheet" href="styles/carrusel.css" />
-    <title>eSports | Game-in</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="styles/Header.css" />
+  <link rel="stylesheet" href="styles/general_style.css" />
+  <link rel="stylesheet" href="styles/esport.css" />
+  <link rel="stylesheet" href="styles/carrusel.css" />
+  <link rel="stylesheet" href="styles/wizard1.css" />
+  <title>eSports | Game-in</title>
 </head>
 
 <body>
@@ -165,8 +165,127 @@
         <img class="img-circular" src="img/eqp_flash.jpg" alt="">
     </div>
 
+  <!-- Modal -->
+  <dialog id="modal">
+    <div class="T-Modal">
+      <h2>INICIAR SESION</h2>
+      <span id="btn-cerrar-modal" class="material-symbols-outlined btn-cerrar">cancel</span>
+    </div>
+    <form id="login-form">
+      <div class="form-group">
+        <input type="email" id="loginemail" class="form-iniciar-s" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <input type="password" id="loginpassword" class="form-iniciar-s" placeholder="Contraseña" required>
+      </div>
+      <div class="opciones">
+        <a id="btn-registro">Regristrate</a>
+        <button type="submit" class="btn-ini">Iniciar sesion</button>
+      </div>
+    </form>
+  </dialog>
 
-    <script src="js/carrusel.js"></script>
+  <!--Modal registro-->
+  <dialog id="modalr">
+    <div class="T-Modal">
+      <h2>Registro</h2>
+      <span id="btn-cerrar-modalR" class="material-symbols-outlined btn-cerrar">cancel</span>
+    </div>
+    <form id="register-form">
+      <div class="form-group">
+        <input type="email" id="registeremail" class="form-iniciar-s" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <input type="password" id="registerpassword" class="form-iniciar-s" placeholder="Contraseña" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="namer" class="form-iniciar-s" placeholder="Nombre" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="nicknamer" class="form-iniciar-s" placeholder="Nickname" required>
+      </div>
+      <div class="form-group">
+        <p id="FN">Fecha de nacimiento</p>
+        <input type="date" id="Fnacir" class="form-iniciar-s" placeholder="Fecha de Nacimiento" required>
+      </div>
+      <div class="opciones">
+        <button type="submit" class="btn-ini">Registrarse</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Help button-->
+  <a class="material-symbols-outlined" id="Help-button">help</a>
+
+  <!-- Modal Wizard -->
+  <div hidden class="fondo-wizard" id="F-Wizard1">
+    <div class="wizards" id="Wizard1">
+      <div class="Textwiz">
+        En esta seccion encontraras tus juegos a los mejores precios
+      </div>
+      <div class="opcionesW">
+        <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+        <h5 class="Cantidad-wiz">1 de 5</h5>
+        <button class="btn-wizard" id="Sigiente-wizard1">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <div hidden class="fondo-wizard" id="F-Wizard2">
+    <div class="wizards" id="Wizard2">
+      <div class="Textwiz">
+        En esta seccion podras ver los torneos que se estan llevando a cabo
+      </div>
+      <div class="opcionesW">
+        <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+        <h5 class="Cantidad-wiz">2 de 5</h5>
+        <button class="btn-wizard" id="Sigiente-wizard2">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <div hidden class="fondo-wizard" id="F-Wizard3">
+    <div class="wizards" id="Wizard3">
+      <div class="Textwiz">
+        Puedes registrarte o iniciar sesion para guardas tus juegos favoritos y hacer comentarios
+      </div>
+      <div class="opcionesW">
+        <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+        <h5 class="Cantidad-wiz">3 de 5</h5>
+        <button class="btn-wizard" id="Sigiente-wizard3">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <div hidden class="fondo-wizard" id="F-Wizard4">
+    <div class="wizards1" id="Wizard4">
+      <div class="Textwiz">
+        En esta seccion podras ver la descripcion y los partidos de los torneos que se estan llevando acabo 
+      </div>
+      <div class="opcionesW">
+        <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+        <h5 class="Cantidad-wiz">4 de 5</h5>
+        <button class="btn-wizard" id="Sigiente-wizard4">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <div hidden class="fondo-wizard" id="F-Wizard5">
+    <div class="wizards" id="Wizard5">
+      <div class="Textwiz">
+        En esta seccion veras los partidos que se estan llevando acabo en tiempo real
+      </div>
+      <div class="opcionesW">
+        <h5 class="Cantidad-wiz">5 de 5</h5>
+        <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/carrusel.js"></script>
+  <script src="js/Wizarde.js"></script>
+  <script type="module" src="js/Firebase.js"></script>
+  <script type="module" src="js/sesion.js"></script>
 
 </body>
 
