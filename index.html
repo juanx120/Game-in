@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/general_style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/Header.css" />
+    <link rel="stylesheet" href="styles/general_style.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/wizard.css" />
     <!-- BOOSTRAP -->
     <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"-->
     <title>Game-in</title>
@@ -17,8 +20,7 @@
 
 <body>
     <header>
-        <section id="banner">
-            <!--img src="img/bannerSuperior.png" alt="" /-->
+        <section id="banner" style="background-image: url(img/bannerSuperior.jpg);">
             <a href="index.html" id="Nombre_de_la_pagina">Game-in</a>
         </section>
 
@@ -32,39 +34,235 @@
             <div class="hijo-menu" id="lineP">
                 <a href="eSports.html">eSports</a>
             </div>
-            <div class="hijo-menu">
-                <a href="">Ingreso</a>
+            <div class="Op-ini">
+                <div class="hijo-menu">
+                    <a id="abrir-modal">Ingreso</a>
+                </div>
+                <div class="Cerrar-se" style="display: none;">
+                    <div class="hijo-menu" id="lineP">
+                        <a id="Cerrar" href="perfil.html">Perfil</a>
+                    </div>
+                    <div class="hijo-menu logout">
+                        <span title="Salir" class="material-symbols-outlined logoo" id="Cerrar-se">logout</span>
+                    </div>
+                </div>
             </div>
         </nav>
-        
+
     </header>
 
-    <h1 class="titulo">NOVEDADES</h1>
+        <h1 class="titulo">NOVEDADES</h1>
 
         <div class="carousel-inner">
             <div class="container_slider">
                 <div class="slider" id="slider">
                     <div class="slider_section">
-                        <img src="/img/slider_N_1.png" alt="" class="slider_img">
+                        <img src="img/slider_N_1.png" alt="" class="slider_img">
                     </div>
                     <div class="slider_section">
-                        <img src="/img/slider_N_2.jpg" alt="" class="slider_img">
+                        <img src="img/slider_N_2.jpg" alt="" class="slider_img">
                     </div>
                     <div class="slider_section">
-                        <img src="/img/slider_N_3.webp" alt="" class="slider_img">
+                        <img src="img/slider_N_3.webp" alt="" class="slider_img">
                     </div>
                 </div>
             </div>
-            <div class="slider_btn slider_btn_right" id="btnslide_right">&#62</div>
-            <div class="slider_btn slider_btn_left" id="btnslide_left">&#60</div>
+            <div class="slider_btn slider_btn_right material-symbols-outlined" id="btnslide_right">arrow_forward_ios</div>
+            <div class="slider_btn slider_btn_left material-symbols-outlined" id="btnslide_left">arrow_back_ios</div>
+        </div>
+
+    <div class="Mofertas">
+        <h2 id="Mejores_O">Mejores ofertas</h2>
+        <div id="ofertas">
+            <div class="CaOfertas">
+                <img src="img/banner-forza.png" alt="" class="Img_ofert">
+            </div>
+            <div class="CaOfertas">
+                <img src="img/banner-rdr.png" alt="" class="Img_ofert" id="GamD">
+            </div>
+            <div class="CaOfertas">
+                <img src="img/banner-acv.png" alt="" class="Img_ofert">
+            </div>
+            <div class="CaOfertas">
+                <img src="img/banner-gta.png" alt="" class="Img_ofert">
+            </div>
+            <div class="CaOfertas">
+                <img src="img/banner-alice.png" alt="" class="Img_ofert">
+            </div>
         </div>
     </div>
 
-    <div id="Caja_degradada">
 
+    <div id="Caja_degradada">
+        <img src="img/Juegos_en_2022PC.png" alt="" id="juegospc2022">
+        <div class="Encuentra_Me">
+            <h2 class="Encuentra_Mejor">¡Encuentra tus</h2>
+            <h2 class="Encuentra_Mejor">juegos al</h2>
+            <h2 id="Mprecio">mejor precio!</h2>
+            <a href="juegos.html" id="Encuentralos">Encuentralos</a>
+        </div>
     </div>
-    <script src="/js/slider.js"></script>
-    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script-->
+
+    <div class="Dtorneos">
+        <h1 id="Notepier">NO TE PIERDAS DE NADA</h1>
+        <div class="Envivo">
+            <h2 id="Envivo">LIVE</h2>
+            <span id="Envivo" class="material-symbols-outlined">stream</span>
+        </div>
+        <div class="VerTorneos">
+            <div class="sigue_tus">
+                <h3 id="Sigue_tus">Sigue a tus torneos favoritos y no te pierdas ni un solo partido</h3>
+                <a href="eSports.html" id="siguelos">Siguelos</a>
+            </div>
+            <div class="EquiposTorne">
+                <div class="Equipos Pequipo">
+                    <img class="img-circular" src="img/eqp_rogue.jpg" alt="">
+                    <h3 id="VS">VS</h3>
+                    <img class="img-circular" src="img/eqp_SKT1.jpeg" alt="">
+                </div>
+                <div class="Equipos Sequipo">
+                    <img class="img-circular" src="img/eqp_spacestation.png" alt="">
+                    <h3 id="VS">VS</h3>
+                    <img class="img-circular" src="img/eqp_natus.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <dialog id="modal">
+        <div class="T-Modal">
+            <h2>INICIAR SESION</h2>
+            <span id="btn-cerrar-modal" class="material-symbols-outlined btn-cerrar">cancel</span>
+        </div>
+        <form id="login-form">
+            <div class="form-group">
+                <input type="email" id="loginemail" class="form-iniciar-s" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="loginpassword" class="form-iniciar-s" placeholder="Contraseña" required>
+            </div>
+            <div class="opciones">
+                <a id="btn-registro">Regristrate</a>
+                <button type="submit" class="btn-ini">Iniciar sesion</button>
+            </div>
+        </form>
+    </dialog>
+
+    <!--Modal registro-->
+    <dialog id="modalr">
+        <div class="T-Modal">
+            <h2>Registro</h2>
+            <span id="btn-cerrar-modalR" class="material-symbols-outlined btn-cerrar">cancel</span>
+        </div>
+        <form id="register-form">
+            <div class="form-group">
+                <input type="email" id="registeremail" class="form-iniciar-s" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="registerpassword" class="form-iniciar-s" placeholder="Contraseña" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="namer" class="form-iniciar-s" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="nicknamer" class="form-iniciar-s" placeholder="Nickname" required>
+            </div>
+            <div class="form-group">
+                <p id="FN">Fecha de nacimiento</p>
+                <input type="date" id="Fnacir" class="form-iniciar-s" placeholder="Fecha de Nacimiento" required>
+            </div>
+            <div class="opciones">
+                <button type="submit" class="btn-ini">Registrarse</button>
+            </div>
+        </form>
+    </dialog>
+
+    <!-- Help button-->
+    <a class="material-symbols-outlined" id="Help-button">help</a>
+
+    <!-- Modal Wizard -->
+    <div hidden class="fondo-wizard" id="F-Wizard1">
+        <div class="wizards" id="Wizard1">
+            <div class="Textwiz">
+                En esta seccion encontraras tus juegos a los mejores precios
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">1 de 6</h5>
+                <button class="btn-wizard" id="Sigiente-wizard1">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard2">
+        <div class="wizards" id="Wizard2">
+            <div class="Textwiz">
+                En esta seccion podras ver los torneos que se estan llevando a cabo
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">2 de 6</h5>
+                <button class="btn-wizard" id="Sigiente-wizard2">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard3">
+        <div class="wizards" id="Wizard3">
+            <div class="Textwiz">
+                Puedes registrarte o iniciar sesion para guardas tus juegos favoritos y hacer comentarios
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">3 de 6</h5>
+                <button class="btn-wizard" id="Sigiente-wizard3">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard4">
+        <div class="wizards1" id="Wizard4">
+            <div class="Textwiz">
+                En esta seccion veras los nuevos juegos, DLCs y torneos destacados
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">4 de 6</h5>
+                <button class="btn-wizard" id="Sigiente-wizard4">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard5">
+        <div class="wizards1" id="Wizard5">
+            <div class="Textwiz">
+                Aca encontraras las ofertas destacadas con los mejores precios de las diferentes tiendas
+            </div>
+            <div class="opcionesW">
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+                <h5 class="Cantidad-wiz">5 de 6</h5>
+                <button class="btn-wizard" id="Sigiente-wizard5">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <div hidden class="fondo-wizard" id="F-Wizard6">
+        <div class="wizards1" id="Wizard6">
+            <div class="Textwiz">
+                En esta seccion encontraras los torneos destacados que se estan llevando acabo en este momento
+            </div>
+            <div class="opcionesW">
+                <h5 class="Cantidad-wiz">6 de 6</h5>
+                <button class="btn-wizard" id="Cerrar-wizard1">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+    <script src="js/Wizard.js"></script>
+    <script type="module" src="js/Firebase.js"></script>
+    <script type="module" src="js/sesion.js"></script>
 </body>
 
 </html>

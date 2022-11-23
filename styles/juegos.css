@@ -2,13 +2,43 @@
     color: #FFB800;
     font-size: 38px;
     font-weight: bold;
-    margin: 70px;
+    margin: 30px;
 }
+
 #titulo2 {
     color: #FFB800;
     font-size: 38px;
     font-weight: bold;
     margin: 70px auto 0px auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 0px;
+    margin: 0px;
+}
+
+input {
+    outline: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-box-sizing: 0 !important;
+    box-sizing: 0 !important;
+    -webkit-transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: aliceblue !important;
+    border-radius: 10px !important;
+    height: 35px !important;
+    width: 450px !important;
+    font-size: 20px !important;
 }
 
 h4 {
@@ -21,7 +51,7 @@ h4 {
     width: 90vw;
 }
 
-.carousel{
+.carousel {
     height: 600px;
 }
 
@@ -76,7 +106,7 @@ img.ban-juegos {
     position: absolute;
     top: 27%;
     right: 5%;
-    height: 500px; 
+    height: 500px;
 
 }
 
@@ -138,7 +168,7 @@ span.hgl {
     background-color: aliceblue;
 }
 
-.row .col.c3{
+.row .col.c3 {
     padding: 0px;
 }
 
@@ -167,9 +197,6 @@ span.hgl {
     left: 0; */
 }
 
-
-
-
 .estrenos-tl {
     padding: 30px 200px;
     margin: 0px;
@@ -183,7 +210,7 @@ span.hgl {
     background-color: aliceblue;
 }
 
-.row .col.c4{
+.row .col.c4 {
     padding: 0px;
 }
 
@@ -202,4 +229,3 @@ span.hgl {
     width: 200px;
     height: 407px;
 }
-

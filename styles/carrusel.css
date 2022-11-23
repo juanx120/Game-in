@@ -1,0 +1,67 @@
+.carousel-inner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container_slider {
+    width: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 300%;
+    margin-left: -5.5%;
+    height: 210px;
+}
+
+.slider_section {
+    width: 5.32%;
+    padding: auto;
+}
+
+.slider_background{
+    position: absolute;
+    width: auto;
+    height: 220px;
+    width: 180px;
+}
+
+.slider_btn{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    transform: translateY(-50%);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.slider_btn:hover{
+    opacity: 1;
+}
+
+.slider_btn_left{
+    top: 580px;
+    left: 7.5%;
+}
+
+#backg_left{
+    left: 0;
+    background: linear-gradient(90deg, rgba(13, 12, 41, 1)30%,rgba(13, 12, 41, 0.8)70%, rgba(13, 12, 41, 0));
+}
+
+.slider_btn_right{
+    top: 580px;
+    right: 7.5%;
+}
+
+#backg_right{
+    right: 0;
+    background: linear-gradient(270deg, rgba(13, 12, 41, 1)30%,rgba(13, 12, 41, 0.5)80%, rgba(13, 12, 41, 0));
+
+}

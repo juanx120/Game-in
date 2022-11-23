@@ -10,7 +10,7 @@
 
 .container_slider {
     width: 100%;
-    max-width: 1100px;
+    max-width: 950px;
     border-radius: 26px;
     margin: auto;
     overflow: hidden;
@@ -34,42 +34,185 @@
     height: 100%;
 
 }
-
-.slider_btn {
-    display: flex;
+.slider_btn{
     position: absolute;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
     background-color: transparent;
     font-size: 80px;
     color: #FFB800;
-    top: 50%;
     transform: translateY(-50%);
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
+    opacity: 0.5;
 }
-
-.slider_btn:hover {
-    background-color: rgba(102, 2, 115, 1);
+.slider_btn:hover{
+    opacity: 1;
 }
 
 .slider_btn_left {
     top: 650px;
-    left: 15%;
+    left: 10%;
 }
 
 .slider_btn_right {
     top: 650px;
-    right: 15%;
+    right: 10%;
 }
-
-
+.Mofertas{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+#Mejores_O{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+#ofertas{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.CaOfertas{
+    width: 210px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.Img_ofert{
+    width: 210px;
+    height: 420px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Img_ofert:hover{
+    width: 220px;
+    height: 450px;
+    margin-bottom: 5px;
+}
 #Caja_degradada {
     width: 100%;
-    height: 250px;
-    background: linear-gradient(90deg, rgba(102, 2, 115, 0)25%, rgba(102, 2, 115, 1), rgba(102, 2, 115, 0)75%);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(102, 2, 115, 0.15)10%, rgba(102, 2, 115, 1), rgba(102, 2, 115, 0.15)90%);
+}
+#juegospc2022{
+    width: 850px;
+    margin-left: 5%;
+    height: fit-content;
+}
+.Encuentra_Me{
+    margin-left: 100px;
+    background-color: transparent;
+}
+.Encuentra_Mejor{
+    font-size: 50px;
+    background-color: transparent;
+}
+#Mprecio{
+    font-size: 50px;
+    background-color: transparent;
+    color: #FFB800;
+}
+#Encuentralos{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: normal;
+    width: 220px;
+    margin-left: 110px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #FFB800;
+    border-radius: 10px;
+    color: black;
+}
+.Dtorneos{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Notepier{
+    color: #FFB800;
+    font-size: 45px;
+    text-align: center;
+}
+.Envivo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#Envivo {
+    text-align: right;
+    font-size: 32px;
+    color: #D705F2;
+}
+.VerTorneos{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+.sigue_tus{
+    width: 400px;
+    height: 450px;
+    background-color: #FFB800;
+}
+#Sigue_tus{
+    margin-top: 30%;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    background-color: transparent;
+}
+#siguelos{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: normal;
+    width: 220px;
+    margin-left: 90px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #660273;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.Equipos{
+    margin-left: 100px;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #D705F2;
+    background-color: rgba(253, 234, 255, 0.14);
+}
+.Sequipo{
+    margin-top: 50px;
+}
+.img-circular{
+    border-radius: 50%;
+    height: 160px;
+    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.295);
+}
+#VS{
+    background-color: transparent;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFB800;
 }

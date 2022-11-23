@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,18 +9,174 @@
 body {
     margin: auto;
 }
-/* 
-h1,h2,h3,span,button,i{
-    color: #F2F2F2;
-} */
 
-.titulo{
+.titulo {
     color: #FFB800;
     font-size: 38px;
     text-align: center;
 }
 
-.subtitulo{
+.subtitulo {
     color: #FFB800;
     font-size: 35px;
+}
+
+.subtituloblco{
+    font-size: 35px;
+    margin: auto;
+    width: 76%;
+}
+
+.img-circularGrande{
+    border-radius: 50%;
+    height: 210px;
+}
+
+.img-circular {
+    border-radius: 50%;
+    height: 180px;
+}
+
+.textY {
+    color: #FFB800;
+}
+
+/* Modal */
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 27px;
+}
+#abrir-modal {
+    cursor: pointer;
+}
+
+#modal {
+    margin-left: 35%;
+    margin-top: 20%;
+    width: 550px;
+    height: 250px;
+    border-radius: 26px;
+}
+
+#modal::backdrop {
+    background-color: rgba(0, 0, 0, .70);
+}
+
+#modalr {
+    margin-left: 35%;
+    margin-top: 20%;
+    width: 550px;
+    height: 450px;
+    border-radius: 26px;
+}
+
+#modalr::backdrop {
+    background-color: rgba(0, 0, 0, .70);
+}
+
+.T-Modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 4.5%;
+    margin-top: 20px;
+}
+
+.btn-cerrar {
+    color: #FFB800;
+    font-size: 26px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.form-iniciar-s {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    border-radius: 10px;
+    height: 35px;
+    width: 450px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-ini {
+    background-color: #FFB800;
+    margin-left: 4%;
+    margin-right: 4.2%;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-ini:hover {
+    color: rgb(207, 207, 207);
+}
+#FN{
+    margin-bottom: 10px;
+}
+#btn-registro{
+    color:#FFB800;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Op-ini {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.Cerrar-se {
+    position: absolute;
+    background-color: transparent;
+    top:0;
+    display: flex;
+}
+.logout{
+    display:flex;
+    align-items: center;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.logoo{
+    background-color: transparent;
+    font-size: 30px;
+    color: #D705F2;
+    cursor: pointer;
+}
+#Help-button{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 35px;
+    color: aliceblue;
+}
+#Help-button:hover{
+    color: black;
+    background-color: #FFB800;
 }

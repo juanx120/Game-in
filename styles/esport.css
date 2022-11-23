@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: aliceblue;
-    
+    color: aliceblue; 
 }
 
 #seccion{
@@ -92,12 +91,6 @@
     background: linear-gradient(90deg, rgba(102, 2, 115, 0)15%,rgba(51, 36, 101, 1), rgba(102, 2, 115, 0)85%);
 }
 
-
-.img-circular{
-    border-radius: 50%;
-    height: 180px;
-}
-
 .info-torneo{
     width: 37%;
     display: flex;
@@ -130,4 +123,59 @@
     max-width: 90px;
     padding: 0;
     margin: 15px auto 0 auto;
-  }
+}
+
+/*CSS Información toreno*/
+
+h1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#info-t{
+    display: flex;
+    position: center;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.texto{
+    width: 100%;
+}
+
+.texto p{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+#logo{
+    display: flex;
+    width: 420px;
+    height: auto;
+    justify-content: flex-end;
+}
+
+#logo img{
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor{
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contenedor a{
+    color: #de81ea;
+}
+
+.contenedor a:hover{
+    color: #D705F2;
+}
+

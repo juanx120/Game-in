@@ -1,14 +1,7 @@
 .game-details-bd {
-    padding: 100px;
+    margin: auto;
+    width: 76%;
 }
-
-#titulo {
-    color: #FFB800;
-    font-size: 38px;
-    font-weight: bold;
-    margin: 0px;
-}
-
 
 .img1 {
     /* padding: 50px; */
@@ -21,7 +14,38 @@
 
 .img3 {
     /* padding: 50px; */
-    padding: 10px;
+    padding: 18px;
+    height: 10px;
+    width: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 0px;
+    margin: 0px;
+}
+
+input {
+    outline: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-box-sizing: 0 !important;
+    box-sizing: 0 !important;
+    -webkit-transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    transition: 0 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: aliceblue !important;
+    border-radius: 10px !important;
+    height: 35px !important;
+    width: 450px !important;
+    font-size: 20px !important;
 }
 
 .p-opinion {
@@ -122,4 +146,8 @@
 .img7 {
     width: 50px !important;
     background: rgba(0, 0, 0, 0.0);
+}
+
+#doble{
+    width: 200px;
 }
