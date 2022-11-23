@@ -26,7 +26,8 @@
 
 .slider_background{
     position: absolute;
-    background-color: #0D0C29;
+    width: auto;
+    height: 220px;
     width: 180px;
 }
 
@@ -49,7 +50,18 @@
     left: 7.5%;
 }
 
+#backg_left{
+    left: 0;
+    background: linear-gradient(90deg, rgba(13, 12, 41, 1)30%,rgba(13, 12, 41, 0.8)70%, rgba(13, 12, 41, 0));
+}
+
 .slider_btn_right{
     top: 580px;
     right: 7.5%;
+}
+
+#backg_right{
+    right: 0;
+    background: linear-gradient(270deg, rgba(13, 12, 41, 1)30%,rgba(13, 12, 41, 0.5)80%, rgba(13, 12, 41, 0));
+
 }
